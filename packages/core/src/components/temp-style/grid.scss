@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'font3336';
+  src: url('fonts/main-fonts.eot');
+  src: url('fonts/main-fonts.woff') format('woff'),
+    url('fonts/main-fonts.ttf') format('truetype'),
+    /* url("fonts/main-fonts.svg") format("svg"), */ url('fonts/main-fonts.eot')
+      format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.ant-layout-sider .ant-tabs-tab {
+  color: white;
+}
+.grid {
+  &_fonts {
+    &:before {
+      display: block;
+      font: normal normal normal 14px font3336;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-size: 5em;
+    }
+  }
+  &_block-1 {
+    &::before {
+      content: 'Q';
+      color: white;
+    }
+  }
+  &_block-2 {
+    &::before {
+      content: 'W';
+      color: white;
+    }
+  }
+
+  &_block-3 {
+    &::before {
+      content: 'E';
+      color: white;
+    }
+  }
+
+  &_block-3-of-7 {
+    &::before {
+      content: 'R';
+      color: white;
+    }
+  }
+  &_block-text {
+    &::before {
+      content: 'o';
+      color: white;
+    }
+  }
+
+  &_block-link {
+    &::before {
+      content: '[]';
+      color: white;
+    }
+  }
+}
+
+.block {
+  & > * {
+    color: #bfbfbf;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  min-height: 100px;
+  background-color: rgba(19, 3, 51, 0.6);
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+
+  &:active {
+    background: steelblue;
+  }
+}

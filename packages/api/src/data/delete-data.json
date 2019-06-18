@@ -1,0 +1,8 @@
+{
+    "action": "delete",
+    "model": "Restaurant",
+    "where": {
+      "id": "5c6652e292fa03074aa4fd5c"
+    }
+}
+  

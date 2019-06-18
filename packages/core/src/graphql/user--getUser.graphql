@@ -1,0 +1,5 @@
+query getUser($where: UsrWhereInput) {
+  usrs(where: $where) {
+    id
+  }
+}

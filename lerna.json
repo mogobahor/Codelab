@@ -1,0 +1,12 @@
+{
+  "lerna": "2.2.0",
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "npmClientArgs": [
+    "--concurrency=1"
+  ],
+  "useWorkspaces": true,
+  "version": "1.0.0"
+}

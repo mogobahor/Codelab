@@ -1,0 +1,10 @@
+query userAppQuery($where: UserWhereUniqueInput!) {
+  user(where: $where) {
+    id
+    username
+    apps {
+      id
+      name
+    }
+  }
+}

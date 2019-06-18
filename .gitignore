@@ -1,0 +1,10 @@
+**/node_modules
+**/yarn-error.log
+**/dist/**/*
+**/coverage/**/*
+**/__generated__/**
+**/.idea/**/*
+**/.vscode/**/*
+**/.history/**/*
+**/appsync/**
+

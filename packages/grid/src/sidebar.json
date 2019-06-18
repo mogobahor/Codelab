@@ -1,0 +1,13 @@
+{
+  "tab-1": [
+    {
+      "title": "Dimension",
+      "subMenu": [
+        {
+          "title": "Width",
+          "options": "use-@codelab/form-package"
+        }
+      ]
+    }
+  ]
+}

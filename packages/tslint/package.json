@@ -1,0 +1,17 @@
+{
+  "name": "@codelab/tslint",
+  "version": "1.0.0",
+  "main": "../utils/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0"
+  },
+  "dependencies": {
+    "tslint": "^5.13.0"
+  },
+  "scripts": {
+    "dev": "tsc -w --project tsconfig.json",
+    "build": "tsc --project tsconfig.json"
+  }
+}

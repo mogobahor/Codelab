@@ -1,0 +1,59 @@
+fragment ComponentFragment on Component {
+  id
+  type
+}
+
+fragment ElementFragment on Element {
+  id
+  index
+  component {
+    ...ComponentFragment
+  }
+}
+
+fragment GridFragment on Grid {
+  id
+  index
+  name
+  __typename
+  grids
+  elements(orderBy: index_ASC) {
+    ...ElementFragment
+  }
+}
+
+fragment ContainerFragment on Container {
+  id
+  index
+  grids(orderBy: index_ASC) {
+    ...GridFragment
+  }
+}
+
+fragment PageFragment on Page {
+  id
+  title
+  __typename
+  containers(orderBy: index_ASC) {
+    ...ContainerFragment
+  }
+}
+
+query GetPages {
+  pages {
+    ...PageFragment
+  }
+}
+
+fragment AppFragment on App {
+  name
+  pages {
+    ...PageFragment
+  }
+}
+
+query AppQuery($where: AppWhereUniqueInput!) {
+  app(where: $where) {
+    ...AppFragment
+  }
+}

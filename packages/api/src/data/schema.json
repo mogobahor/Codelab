@@ -1,0 +1,33 @@
+[
+  {
+    "model": "Restaurant",
+    "fields": [
+      {
+        "name": "name",
+        "type": "String"
+      },
+      {
+        "name": "menus",
+        "type": "Menu",
+        "relationship": "hasMany"
+      },
+      {
+        "name": "rating",
+        "type": "Number"
+      }
+    ]
+  },
+  {
+    "model": "Menu",
+    "fields": [
+      {
+        "name": "title",
+        "type": "String"
+      },
+      {
+        "name": "price",
+        "type": "Number"
+      }
+    ]
+  }
+]

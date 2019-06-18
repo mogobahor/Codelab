@@ -1,0 +1,6 @@
+extend type User {
+  apps: [App]
+}
+extend type App {
+  user: User
+}

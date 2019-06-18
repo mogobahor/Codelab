@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'font3336';
+  src: url("../temp-style/fonts/main-fonts.eot");
+  src: url("../temp-style/fonts/main-fonts.woff") format("woff"),url("../temp-style/fonts/main-fonts.ttf") format("truetype"),url("../temp-style/fonts/main-fonts.svg") format("svg"),url("../temp-style/fonts/main-fonts.eot") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal
+}
+.gjs-one-bg {
+  background-color: #463a3c;
+}
+.gjs-block {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  width: 45%;
+  min-width: 45px;
+  padding: 1em;
+  box-sizing: border-box;
+  min-height: 90px;
+  cursor: all-scroll;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  margin: 10px 2.5% 5px;
+  box-shadow: 0 1px 0 0 rgba(0,0,0,0.15);
+  transition: all 0.2s ease 0s;
+  transition-property: box-shadow, color;
+}
+.gjs-one-bg {
+  background-color: #444;
+}
+div[Attributes Style] {
+  -webkit-user-drag: element;
+  user-select: none;
+}
+div {
+  display: block;
+}
+.gjs-two-color {
+  color: #b9a5a6;
+}
+.gjs-two-color {
+  color: #ddd;
+}
+.gjs-two-color {
+  color: #b9a5a6;
+}
+.gjs-pn-panel {
+  display: inline-block;
+  position: absolute;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  z-index: 3;
+}
+.gjs-two-color {
+  color: #ddd;
+}
+.gjs-two-color {
+  color: #b9a5a6;
+}
+.gjs-editor {
+  font-family: Helvetica,sans-serif;
+  font-size: .75rem;
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+}
+.gjs-two-color {
+  color: #ddd;
+}
+
+.gjs-editor-cont ::-webkit-scrollbar {
+  width: 8px;
+}
+.gjs-editor-cont ::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.2);
+}
+.gjs-editor-cont ::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+}
+
+.gjs-f-b1:before {
+  content: 'Q';
+}
+
+.gjs-fonts:before {
+  display: block;
+  font: normal normal normal 14px font3336;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 5em;
+}

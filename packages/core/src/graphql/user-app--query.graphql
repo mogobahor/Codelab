@@ -1,0 +1,9 @@
+query userAppQuery($where: UsrWhereInput) {
+  usrs(where: $where) {
+    id
+    username
+    apps {
+      name
+    }
+  }
+}
