@@ -24,7 +24,7 @@
     "@koa/cors": "^2.2.1",
     "@types/koa-router": "^7.0.40",
     "@types/mongoose": "^5.3.10",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "chai": "^4.2.0",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
